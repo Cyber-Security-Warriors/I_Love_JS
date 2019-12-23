@@ -7,4 +7,4 @@ e.g. bad practices and design patterns.
 
 Follow this guide for tooling setup: https://github.com/wesbos/eslint-config-wesbos.
 
-[Click here for Data Types in JS](04-DataType.md)
+[Click Here for Next](04-DataType.md)

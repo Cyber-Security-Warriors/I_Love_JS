@@ -79,5 +79,5 @@ dog = 'clever'; // ReferenceError: dog is not defined
  // Kebab case(We not use in JS because - not allowed in variable name)
  const this-is-kebab-case = false;
  ```
- [click here to learn about Code Quality Tooling](03-code-quality-tooling.md)
+ [Click Here for Next](03-code-quality-tooling.md)
      

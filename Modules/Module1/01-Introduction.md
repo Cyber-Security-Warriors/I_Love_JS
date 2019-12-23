@@ -20,4 +20,4 @@ We can also create external ``` filename.js ``` JS file & use that file as link 
 <Script src = 'filename.js'> </Script>
 ```
 
-[Click Here for Variables & Statements](02-Variables-and-Statement.md)
+[Click Here for Next](02-Variables-and-Statement.md)
