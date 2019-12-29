@@ -87,36 +87,29 @@ like Pizza`;
 
 
 
-Only **one** type of number in JavaScript whether it has decimal point or not.
+Only **one** type of number in JavaScript.
 
 ```javascript
-const age = 100;
-const money = 1000.50
+const age = 24;
+const area = 178.5;
 console.log(typeof age); // number
-console.log(typeof money); // number
+console.log(typeof area); // number
 
 ```
 
 -   `typeof` is used to find out the 'type' of a variable.
-    
--   Various operations: addition, subtraction, multiplication, division can be done with nos.
-    
--   Example
-    
-    `"10" * "10" // 100 (number) - converts the strings to number`
-    
-
-The above works with _multiplication, division and subtraction and not addition,_ because the + sign is also used for concatenation.
 
 -   **Math helper methods:**
     
-    -   **Math.round, Math.floor, Math.ceil, Math.random** and many others
+    -   Math helper methods provide power to manipulate data according to our need. 
+    for eg Math.round(), Math.floor() etc.
         
         ```javascript
           Math.round(2.5); // 3
           Math.floor(2.4); // 2
           Math.ceil(2.4); // 3
-          Math.random(); // 0.565262543048269 - random no. between 0 and 1
+          Math.random(); // 0.21329726661734782 - random number between 0 and 1
+          Math.PI; //3.141592653589793
         
         ```
         
