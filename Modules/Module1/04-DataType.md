@@ -205,4 +205,4 @@ price = 20 ; // set the value of price to 20
 
 "10" == 10; // true
 ```
-[Click Here for Module 2](../Module2/function.md)
+[Click Here for Module 2](../Module2/01-function.md)
