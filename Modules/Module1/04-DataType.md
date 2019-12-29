@@ -85,8 +85,6 @@ like Pizza`;
 
 ### Numbers in JS
 
-
-
 Only **one** type of number in JavaScript.
 
 ```javascript
@@ -147,3 +145,64 @@ So, when working with money, don't store them as dollars and cents. Store all of
 `10 / 'dog' // NaN`
 
 `typeof NaN // number`
+
+### Object in JS 
+
+Objects are collection of Data or Functionality.
+
+```javascript
+
+const person{
+  first = "Himanshu",
+  last = "Awasthi",
+  age = 24
+};
+```
+How to access Object Properties?
+
+```javascript
+person.first // "Himanshu"
+person.last // "Awasthi"
+person.age // 24
+```
+
+### Null & Undefined in JS
+
+**undefined** came when variable or object is created but not set or defined.
+
+```javascript
+let dog;
+console.log(dog); // undefined
+```
+**null** is value to any variable which is nothing.
+
+```javascript
+const somethingNull = null;
+console.log(somethingNull) //null
+```
+
+### Boolean & Equality in JS
+
+**Boolean** can be true or false. 
+eg : 
+```javascript
+const age = 18;
+const ofAge = age >19;
+console.log(age) // 18
+console.log(ofAge) // false
+```
+
+**Equality Signs** 
+- '=' : Updating & setting Value
+- '===' : check Value & type of both side variable. (Best to use)
+- '==' : only check value not type of variable.(Bad Practice)
+eg:
+```javascript
+let price = 10;
+price = 20 ; // set the value of price to 20
+
+"10" === 10; // false
+
+"10" == 10; // true
+```
+[Click Here for Module 2](../Module2/function.md)
